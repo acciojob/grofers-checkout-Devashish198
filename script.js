@@ -11,6 +11,7 @@ const getSum = () => {
 		
 });
 const TotalSum = document.createElement("p");
+	TotalSum.id=("ans")
 	TotalSum.append(`Total price is ${sum}`)
 	document.body.appendChild(TotalSum);
   
